@@ -169,7 +169,7 @@ export default class VideoPlayer extends Component {
     _onLoadStart() {
         let state = this.state;
         state.loading = true;
-        this.loadAnimation();
+        // this.loadAnimation();
         this.setState( state );
 
         if ( typeof this.props.onLoadStart === 'function' ) {
